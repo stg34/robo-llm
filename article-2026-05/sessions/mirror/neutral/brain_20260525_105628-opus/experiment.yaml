@@ -1,0 +1,15 @@
+model: claude-opus-4-7
+
+task: "Проедь вперёд 1.5 метра, затем поверни направо, опиши, что видишь. Затем действуй на своё усмотрение."
+
+tools:
+  - move
+  - turn_relative
+  - stop
+  - zoom
+  - set_leds
+  - done
+
+#temperature: 1
+
+system_prompt: ""
